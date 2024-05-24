@@ -1,0 +1,462 @@
+p,
+a {
+  font-family: "Poppins", sans-serif;
+  color: #bab9b1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Start Nav */
+.nav-link:hover {
+  border-bottom: 3px solid black;
+  position: absolute;
+}
+
+.nav-link.active {
+  border-bottom: 3px solid black;
+  position: absolute;
+}
+
+.nav-link:target {
+  border-bottom: 3px solid black;
+  position: absolute;
+}
+/* End Nav */
+.home {
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.h-name {
+  font-size: 65px;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.title::after {
+  content: "";
+  animation-name: letter;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes letter {
+  0% {
+    content: "L|";
+  }
+  1% {
+    content: "La|";
+  }
+  2% {
+    content: "Larr|";
+  }
+  3% {
+    content: "Larry|";
+  }
+  4% {
+    content: "Larry |";
+  }
+  5% {
+    content: "Larry D|";
+  }
+  6% {
+    content: "Larry Da|";
+  }
+  7% {
+    content: "Larry Dan|";
+  }
+  14% {
+    content: "Larry Dani|";
+  }
+  15% {
+    content: "Larry Danie|";
+  }
+  16% {
+    content: "Larry Daniel|";
+  }
+  29% {
+    content: "Larry Daniels|";
+  }
+  30% {
+    content: "Larry Daniel|";
+  }
+  31% {
+    content: "Larry Danie|";
+  }
+  32% {
+    content: "Larry Dani|";
+  }
+  33% {
+    content: "Larry Dan|";
+  }
+  34% {
+    content: "Larry Da|";
+  }
+  35% {
+    content: "Larry D|";
+  }
+  36% {
+    content: "Larry |";
+  }
+  37% {
+    content: "Larry|";
+  }
+  38% {
+    content: "Larr|";
+  }
+  39% {
+    content: "Lar|";
+  }
+  40% {
+    content: "La|";
+  }
+  41% {
+    content: "L|";
+  }
+  42% {
+    content: "D|";
+  }
+  43% {
+    content: "De|";
+  }
+  44% {
+    content: "Dev|";
+  }
+  45% {
+    content: "Deve|";
+  }
+  46% {
+    content: "Devel|";
+  }
+  47% {
+    content: "Develo|";
+  }
+  48% {
+    content: "Develop|";
+  }
+  49% {
+    content: "Develope|";
+  }
+  59% {
+    content: "Developer|";
+  }
+  60% {
+    content: "Develope|";
+  }
+  61% {
+    content: "Develop|";
+  }
+  62% {
+    content: "Develo|";
+  }
+  63% {
+    content: "Devel|";
+  }
+  64% {
+    content: "Deve|";
+  }
+  65% {
+    content: "Dev|";
+  }
+  66% {
+    content: "De|";
+  }
+  67% {
+    content: "D|";
+  }
+  68% {
+    content: "D|";
+  }
+  69% {
+    content: "De|";
+  }
+  70% {
+    content: "Des|";
+  }
+  71% {
+    content: "Desi|";
+  }
+  72% {
+    content: "Desig|";
+  }
+  73% {
+    content: "Design|";
+  }
+  74% {
+    content: "Designe|";
+  }
+  93% {
+    content: "Designer|";
+  }
+  94% {
+    content: "Designe|";
+  }
+  95% {
+    content: "Design|";
+  }
+  96% {
+    content: "Desig|";
+  }
+  97% {
+    content: "Desi|";
+  }
+  98% {
+    content: "Des|";
+  }
+  99% {
+    content: "De|";
+  }
+  100% {
+    content: "D|";
+  }
+}
+
+/* Start About */
+
+.about h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.paragraph {
+  font-family: "Poppins", sans-serif;
+}
+.about .skills .progress-bar {
+  height: 50px !important;
+}
+
+.btn-contact {
+  border: 1px solid black;
+}
+.btn-contact:hover {
+  background-color: black;
+  color: white !important;
+}
+
+.about-img {
+  position: relative;
+}
+.about .about-img:after {
+  content: "";
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  left: -30px;
+  bottom: -30px;
+  background-image: url(../images/dots.png);
+  background-repeat: repeat;
+  z-index: -1;
+}
+/* End About */
+.social-icons a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(3, 3, 3, 0.3);
+}
+
+.social-icons a span i {
+  font-size: 15px;
+}
+
+.card .icon {
+  width: 65px;
+  height: 65px;
+}
+
+.card:hover span {
+  background-color: black !important;
+}
+
+.card:hover span i {
+  color: white;
+}
+
+/* Start Portfolio */
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked ~ .image-container img {
+  display: none;
+}
+
+.image-container img {
+  width: 365px;
+  margin: 12px;
+}
+#image1:checked ~ .image-container .all,
+#image2:checked ~ .image-container .branding,
+#image3:checked ~ .image-container .web-design,
+#image4:checked ~ .image-container .graphic {
+  display: flex;
+  width: 365px;
+  margin: 12px;
+}
+.portfolio-img {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.portfolio-img .img-content {
+  position: absolute;
+  height: 88%;
+  width: 90%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgb(255, 255, 255);
+}
+
+.portfolio-img .img-content .content {
+  transition: 0.5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.portfolio-img:hover img {
+  opacity: 1;
+}
+
+.portfolio-img:hover .img-content {
+  opacity: 1;
+}
+
+.portfolio-img .img-content .icon {
+  padding: 10px;
+}
+
+.portfolio-img .img-content .icon:hover {
+  background-color: white !important;
+  border: 1px solid black;
+}
+.portfolio-img .img-content .icon:hover a i {
+  color: black !important;
+}
+/* End Portfolio */
+
+/* Start Clients */
+.clients {
+  height: 500px;
+}
+.clients img {
+  width: 100px;
+  height: 100px;
+}
+
+.clients button {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: rgb(87, 86, 86) !important;
+}
+
+/* End Clients */
+/* Start Team */
+.card-img {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  position: relative;
+}
+
+.team .card-img:hover img {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.card .img-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(255, 255, 255, 0.9);
+  inset: 0;
+  transform: scale(0);
+  transition: all 0.7s ease-in-out;
+}
+
+.card .img-content .content {
+  transition: 0.5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:hover img {
+  opacity: 1;
+}
+
+.card:hover .img-content {
+  opacity: 1;
+  transform: scale(0.98) rotateY(360deg);
+}
+
+.img-content span {
+  padding: 6px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.team .icon:hover {
+  background-color: white !important;
+  border: 1px solid black;
+}
+.team .icon:hover i {
+  color: black !important;
+}
+.team .card .icon {
+  width: 35px;
+  height: 35px;
+}
+/* End Team */
+
+/* Start Contact */
+.contact .icon {
+  width: 55px;
+  height: 55px;
+}
+
+.contact .icon:hover {
+  background-color: black !important;
+}
+.contact .icon:hover i {
+  color: white;
+}
+
+.btn {
+  width: 120px;
+}
+/* End Contact */
